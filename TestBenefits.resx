@@ -58,8 +58,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="lblThisIsTestBen" xml:space="preserve">
-    <value>TestBenefit</value>
-    <comment>This is a test field for Benefits.</comment>
+  <data name="lblThisIsTestBen1" xml:space="preserve">
+    <value>TestBenefit1</value>
+    <comment>This is a test field for Benefits1.</comment>
+  </data>
+  <data name="lblThisIsTestBen2" xml:space="preserve">
+    <value>TestBenefit2</value>
+    <comment>This is a test field for Benefits2.</comment>
   </data>
 </root>
