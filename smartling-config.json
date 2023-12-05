@@ -1,0 +1,14 @@
+{
+    "locales": [{
+            "smartling": "de-DE",
+            "application": "de-DE"
+        }
+    ],
+    "resourceSets": [
+        {
+            "type": "resx",
+            "authorizeContent": false,
+            "pathRegex": "AppliedJobsInRoot.resx"
+        }
+    ]
+}
