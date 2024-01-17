@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblBenDependentNationality" xml:space="preserve">
+    <value>国籍</value>
+    <comment>Current Dependent Form- Label for Nationality dropdown field.</comment>
+  </data>
+  <data name="msgAgeReductionApplied" xml:space="preserve">
+    <value>この従業員の補償金額に年齢減額が適用されます。</value>
+    <comment>Benefits Administration- Manage EOI - Information text to the administrator</comment>
+  </data>
+  <data name="msgApplyRecordedActionsFailed" xml:space="preserve">
+    <value>保存中にエラーが発生しました。</value>
+    <comment>Benefits Administration- Error message shown to the administrator when exception occurs in saving the recorded actions</comment>
+  </data>
+  <data name="msgBenPlanEffectiveDateOutsideOfPayPeriod" xml:space="preserve">
+    <value>支払期間の日付は、プランの有効日より外側にすることはできません。 それに応じて、支払期間の日付またはプランの発効日を更新してください。</value>
+    <comment>People - Payroll - Pension - error message when selected plan&apos;s effective date is outside of selected pay period</comment>
+  </data>
+  <data name="msgEmployeeCOBRAEventFailed" xml:space="preserve">
+    <value>COBRA イベントの生成中にエラーが発生しました。</value>
+    <comment>Benefits Administration- Error message shown to the administrator when exception occurs in COBRA Event Generation</comment>
+  </data>
+  <data name="msgGenericPostProcessingFailed" xml:space="preserve">
+    <value>後処理エラーが発生しました。</value>
+    <comment>Benefits Administration- Default error message shown to the administrator when exception occurs in post processing steps</comment>
+  </data>
+  <data name="msgPayrollIntegrationFailed" xml:space="preserve">
+    <value>給与統合の実行中にエラーが発生しました。</value>
+    <comment>Benefits Administration- Error message shown to the administrator when exception occurs in Payroll Integration</comment>
+  </data>
+  <data name="msgUpdateBenefitsSummaryFailed" xml:space="preserve">
+    <value>福利厚生の概要の生成中にエラーが発生しました。</value>
+    <comment>Benefits Administration- Error message shown to the administrator when exception occurs in Updating Benefits Summary</comment>
+  </data>
+</root>
