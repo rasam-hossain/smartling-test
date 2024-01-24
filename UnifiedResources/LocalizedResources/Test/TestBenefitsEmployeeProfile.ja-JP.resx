@@ -91,7 +91,7 @@
     <comment>Benefits Administration- Error message shown to the administrator when exception occurs in Updating Benefits Summary</comment>
   </data>
   <data name="msgUpdateBenefitsSummaryFailedAddedNewTest" xml:space="preserve">
-    <value>We weren&apos;t able to generate the Benefit Summary - this is a test value</value>
+    <value>Benefit Summary を生成できませんでした - これはテスト値です</value>
     <comment>Benefits Administration- A different Error message shown to the administrator when exception occurs in Updating Benefits Summary - this is a test comment</comment>
   </data>
 </root>
